@@ -1,0 +1,12 @@
+MainMod=Klad
+CodeAdr=32832
+DataAdr=50000
+Options=
+Modules=Rsrc.rel
+Include=-I ..\Lib\C -I ..\Lib\Obj
+Libraries=
+Target=TAP
+OfrontPar=-sx3f -21
+Clean=FALSE
+Start=TRUE
+Pause=FALSE

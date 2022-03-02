@@ -1,0 +1,3 @@
+#include "SYSTEM.oh"
+
+extern CHAR *TileByN (CHAR n) __z88dk_fastcall __preserves_regs(b,c,d,e,iyl,iyh);

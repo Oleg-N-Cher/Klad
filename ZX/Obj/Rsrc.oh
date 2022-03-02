@@ -1,0 +1,26 @@
+#include "SYSTEM.oh"
+
+extern CHAR *TileByN (CHAR n) __z88dk_fastcall __preserves_regs(b,c,d,e,iyl,iyh);
+/* Ofront+ 1.0 -sxi3f -21 */
+
+#ifndef Rsrc__oh
+#define Rsrc__oh
+
+#include "SYSTEM.oh"
+
+typedef
+	CHAR Rsrc_LevelsData [9175];
+
+typedef
+	CHAR Rsrc_TilesData [10] [9];
+
+
+import __CONSTARR Rsrc_TilesData Rsrc_Tiles;
+import __CONSTARR Rsrc_LevelsData Rsrc_Levels;
+
+
+#define Rsrc__init()
+
+#define Rsrc_TileByN(n)	TileByN(n)
+
+#endif
